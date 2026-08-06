@@ -36,12 +36,12 @@
         compatible = "zmk,combos";
 
         hankaku {
-            bindings = <&kp LANGUAGE_2>;
+            bindings = <&kp INT5>;
             key-positions = <17 18>;
         };
 
         zenkaku {
-            bindings = <&kp LANGUAGE_9>;
+            bindings = <&kp INTERNATIONAL_4>;
             key-positions = <21 22>;
         };
 
