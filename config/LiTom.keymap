@@ -35,8 +35,8 @@
     keymap: combos {
         compatible = "zmk,combos";
 
-        lang5 {
-            bindings = <&kp LANGUAGE_5>;
+        grave {
+            bindings = <&kp GRAVE>;
             key-positions = <6 5>;
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
