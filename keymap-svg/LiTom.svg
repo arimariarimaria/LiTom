@@ -218,6 +218,55 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">RIGHT_ARROW</text>
 </g>
+<g class="combo combo-grave">
+<polyline points="408,190 324,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="351" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="366" y="177">`</text>
+</g>
+<g class="combo combo-efu7">
+<polyline points="408,190 492,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="492" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="435" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="450" y="177">F7</text>
+</g>
+<g class="combo combo-efu9">
+<polyline points="660,190 744,190"/>
+<circle class="combo-dot" cx="660" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="687" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="702" y="177">F9</text>
+</g>
+<g class="combo combo-efu10">
+<polyline points="744,190 828,190"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="769.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="786" y="177">F10</text>
+</g>
+<g class="combo combo-efu12">
+<polyline points="828,190 912,190"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="912" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="853.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="870" y="177">F12</text>
+</g>
+<g class="combo combo-efu2">
+<polyline points="240,190 324,190"/>
+<circle class="combo-dot" cx="240" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="267" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="282" y="177">F2</text>
+</g>
+<g class="combo combo-pscrn">
+<polyline points="996,190 1080,190"/>
+<circle class="combo-dot" cx="996" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="1080" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="996.9" y="169" width="82.2" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="1038" y="177">PRINTSCREEN</text>
+</g>
 </g>
 <g class="layer layer-windows_layer" transform="translate(0 556)">
 <text class="title" x="30" y="10">windows_layer</text>
@@ -414,6 +463,55 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-47 " transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">RIGHT_ARROW</text>
+</g>
+<g class="combo combo-grave">
+<polyline points="408,190 324,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="351" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="366" y="177">`</text>
+</g>
+<g class="combo combo-efu7">
+<polyline points="408,190 492,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="492" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="435" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="450" y="177">F7</text>
+</g>
+<g class="combo combo-efu9">
+<polyline points="660,190 744,190"/>
+<circle class="combo-dot" cx="660" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="687" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="702" y="177">F9</text>
+</g>
+<g class="combo combo-efu10">
+<polyline points="744,190 828,190"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="769.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="786" y="177">F10</text>
+</g>
+<g class="combo combo-efu12">
+<polyline points="828,190 912,190"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="912" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="853.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="870" y="177">F12</text>
+</g>
+<g class="combo combo-efu2">
+<polyline points="240,190 324,190"/>
+<circle class="combo-dot" cx="240" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="267" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="282" y="177">F2</text>
+</g>
+<g class="combo combo-pscrn">
+<polyline points="996,190 1080,190"/>
+<circle class="combo-dot" cx="996" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="1080" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="996.9" y="169" width="82.2" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="1038" y="177">PRINTSCREEN</text>
 </g>
 </g>
 <g class="layer layer-MOUSE" transform="translate(0 1112)">
@@ -615,6 +713,55 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
+<g class="combo combo-grave">
+<polyline points="408,190 324,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="351" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="366" y="177">`</text>
+</g>
+<g class="combo combo-efu7">
+<polyline points="408,190 492,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="492" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="435" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="450" y="177">F7</text>
+</g>
+<g class="combo combo-efu9">
+<polyline points="660,190 744,190"/>
+<circle class="combo-dot" cx="660" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="687" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="702" y="177">F9</text>
+</g>
+<g class="combo combo-efu10">
+<polyline points="744,190 828,190"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="769.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="786" y="177">F10</text>
+</g>
+<g class="combo combo-efu12">
+<polyline points="828,190 912,190"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="912" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="853.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="870" y="177">F12</text>
+</g>
+<g class="combo combo-efu2">
+<polyline points="240,190 324,190"/>
+<circle class="combo-dot" cx="240" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="267" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="282" y="177">F2</text>
+</g>
+<g class="combo combo-pscrn">
+<polyline points="996,190 1080,190"/>
+<circle class="combo-dot" cx="996" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="1080" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="996.9" y="169" width="82.2" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="1038" y="177">PRINTSCREEN</text>
+</g>
 </g>
 <g class="layer layer-SCROLL" transform="translate(0 1668)">
 <text class="title" x="30" y="10">SCROLL</text>
@@ -811,6 +958,55 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
+<g class="combo combo-grave">
+<polyline points="408,190 324,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="351" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="366" y="177">`</text>
+</g>
+<g class="combo combo-efu7">
+<polyline points="408,190 492,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="492" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="435" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="450" y="177">F7</text>
+</g>
+<g class="combo combo-efu9">
+<polyline points="660,190 744,190"/>
+<circle class="combo-dot" cx="660" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="687" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="702" y="177">F9</text>
+</g>
+<g class="combo combo-efu10">
+<polyline points="744,190 828,190"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="769.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="786" y="177">F10</text>
+</g>
+<g class="combo combo-efu12">
+<polyline points="828,190 912,190"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="912" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="853.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="870" y="177">F12</text>
+</g>
+<g class="combo combo-efu2">
+<polyline points="240,190 324,190"/>
+<circle class="combo-dot" cx="240" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="267" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="282" y="177">F2</text>
+</g>
+<g class="combo combo-pscrn">
+<polyline points="996,190 1080,190"/>
+<circle class="combo-dot" cx="996" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="1080" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="996.9" y="169" width="82.2" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="1038" y="177">PRINTSCREEN</text>
+</g>
 </g>
 <g class="layer layer-ARROW" transform="translate(0 2224)">
 <text class="title" x="30" y="10">ARROW</text>
@@ -1006,6 +1202,55 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-47 transparent" transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
+</g>
+<g class="combo combo-grave">
+<polyline points="408,190 324,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="351" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="366" y="177">`</text>
+</g>
+<g class="combo combo-efu7">
+<polyline points="408,190 492,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="492" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="435" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="450" y="177">F7</text>
+</g>
+<g class="combo combo-efu9">
+<polyline points="660,190 744,190"/>
+<circle class="combo-dot" cx="660" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="687" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="702" y="177">F9</text>
+</g>
+<g class="combo combo-efu10">
+<polyline points="744,190 828,190"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="769.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="786" y="177">F10</text>
+</g>
+<g class="combo combo-efu12">
+<polyline points="828,190 912,190"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="912" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="853.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="870" y="177">F12</text>
+</g>
+<g class="combo combo-efu2">
+<polyline points="240,190 324,190"/>
+<circle class="combo-dot" cx="240" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="267" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="282" y="177">F2</text>
+</g>
+<g class="combo combo-pscrn">
+<polyline points="996,190 1080,190"/>
+<circle class="combo-dot" cx="996" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="1080" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="996.9" y="169" width="82.2" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="1038" y="177">PRINTSCREEN</text>
 </g>
 </g>
 <g class="layer layer-NUM" transform="translate(0 2780)">
@@ -1204,6 +1449,55 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
+<g class="combo combo-grave">
+<polyline points="408,190 324,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="351" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="366" y="177">`</text>
+</g>
+<g class="combo combo-efu7">
+<polyline points="408,190 492,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="492" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="435" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="450" y="177">F7</text>
+</g>
+<g class="combo combo-efu9">
+<polyline points="660,190 744,190"/>
+<circle class="combo-dot" cx="660" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="687" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="702" y="177">F9</text>
+</g>
+<g class="combo combo-efu10">
+<polyline points="744,190 828,190"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="769.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="786" y="177">F10</text>
+</g>
+<g class="combo combo-efu12">
+<polyline points="828,190 912,190"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="912" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="853.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="870" y="177">F12</text>
+</g>
+<g class="combo combo-efu2">
+<polyline points="240,190 324,190"/>
+<circle class="combo-dot" cx="240" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="267" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="282" y="177">F2</text>
+</g>
+<g class="combo combo-pscrn">
+<polyline points="996,190 1080,190"/>
+<circle class="combo-dot" cx="996" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="1080" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="996.9" y="169" width="82.2" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="1038" y="177">PRINTSCREEN</text>
+</g>
 </g>
 <g class="layer layer-FUNCTION" transform="translate(0 3336)">
 <text class="title" x="30" y="10">FUNCTION</text>
@@ -1399,6 +1693,55 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-47 " transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">F12</text>
+</g>
+<g class="combo combo-grave">
+<polyline points="408,190 324,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="351" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="366" y="177">`</text>
+</g>
+<g class="combo combo-efu7">
+<polyline points="408,190 492,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="492" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="435" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="450" y="177">F7</text>
+</g>
+<g class="combo combo-efu9">
+<polyline points="660,190 744,190"/>
+<circle class="combo-dot" cx="660" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="687" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="702" y="177">F9</text>
+</g>
+<g class="combo combo-efu10">
+<polyline points="744,190 828,190"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="769.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="786" y="177">F10</text>
+</g>
+<g class="combo combo-efu12">
+<polyline points="828,190 912,190"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="912" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="853.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="870" y="177">F12</text>
+</g>
+<g class="combo combo-efu2">
+<polyline points="240,190 324,190"/>
+<circle class="combo-dot" cx="240" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="267" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="282" y="177">F2</text>
+</g>
+<g class="combo combo-pscrn">
+<polyline points="996,190 1080,190"/>
+<circle class="combo-dot" cx="996" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="1080" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="996.9" y="169" width="82.2" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="1038" y="177">PRINTSCREEN</text>
 </g>
 </g>
 <g class="layer layer-BT" transform="translate(0 3892)">
@@ -1603,6 +1946,55 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-47 transparent" transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
+</g>
+<g class="combo combo-grave">
+<polyline points="408,190 324,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="351" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="366" y="177">`</text>
+</g>
+<g class="combo combo-efu7">
+<polyline points="408,190 492,190"/>
+<circle class="combo-dot" cx="408" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="492" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="435" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="450" y="177">F7</text>
+</g>
+<g class="combo combo-efu9">
+<polyline points="660,190 744,190"/>
+<circle class="combo-dot" cx="660" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="687" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="702" y="177">F9</text>
+</g>
+<g class="combo combo-efu10">
+<polyline points="744,190 828,190"/>
+<circle class="combo-dot" cx="744" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="769.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="786" y="177">F10</text>
+</g>
+<g class="combo combo-efu12">
+<polyline points="828,190 912,190"/>
+<circle class="combo-dot" cx="828" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="912" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="853.7" y="169" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="870" y="177">F12</text>
+</g>
+<g class="combo combo-efu2">
+<polyline points="240,190 324,190"/>
+<circle class="combo-dot" cx="240" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="324" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="267" y="169" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="282" y="177">F2</text>
+</g>
+<g class="combo combo-pscrn">
+<polyline points="996,190 1080,190"/>
+<circle class="combo-dot" cx="996" cy="190" r="3.2"/>
+<circle class="combo-dot" cx="1080" cy="190" r="3.2"/>
+<rect class="combo-label-bg" x="996.9" y="169" width="82.2" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="1038" y="177">PRINTSCREEN</text>
 </g>
 </g>
 </svg>

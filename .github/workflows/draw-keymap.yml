@@ -39,6 +39,7 @@ jobs:
           from pathlib import Path
           source = Path("config/LiTom.keymap").read_text()
           source = source.replace('"cormoran,runtime-combo-defaults"', '"zmk,combos"')
+          source = source.replace('runtime_combo_defaults {', 'combos {')
           Path(".keymap-svg-tools/LiTom.keymap").write_text(source)
           PY
           python3 .keymap-svg-tools/scripts/generate_physical_layout_svg.py \
