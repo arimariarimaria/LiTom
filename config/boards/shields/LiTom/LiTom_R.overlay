@@ -68,12 +68,30 @@
 
 &trackball_listener {
     status = "okay";
-    input-processors = <&mouse_runtime_input_processor>;
+    // Scroll gets first refusal: on its Studio-selected layers it converts XY
+    // to wheel events, which the mouse processor ignores. No fixed layer gate.
+    input-processors = <&scroll_runtime_input_processor>,
+                       <&mouse_runtime_input_processor>,
+                       <&zip_scroll_scaler 1 16>;
+};
 
-    scroll {
-        layers = <3>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 16>, <&zip_xy_to_scroll_mapper>, <&scroll_runtime_input_processor>;
-    };
+&mouse_runtime_input_processor {
+    // New storage keys prevent legacy settings from overriding these defaults.
+    processor-label = "LiTom Mouse";
+    temp-layer-enabled;
+    temp-layer = <2>;
+    temp-layer-activation-delay-ms = <0>;
+    temp-layer-deactivation-delay-ms = <400>;
+};
+
+&scroll_runtime_input_processor {
+    processor-label = "LiTom Scroll";
+    x-codes = <INPUT_REL_X>;
+    y-codes = <INPUT_REL_Y>;
+    active-layers = <(1 << 3)>;
+    xy-to-scroll-enabled;
+    y-invert;
+    // Keep the existing effective gain: runtime 1/60, then wheel-only 1/16.
 };
 
 // 右手OLED用I2C設定
