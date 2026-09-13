@@ -2,52 +2,73 @@ manifest:
   remotes:
     - name: cormoran
       url-base: https://github.com/cormoran
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
     - name: badjeff
       url-base: https://github.com/badjeff
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
-    - name: te9no
-      url-base: https://github.com/te9no
     - name: pukuhei
       url-base: https://github.com/pukuhei
   projects:
     - name: zmk
       remote: cormoran
-      revision: v0.3-branch+dya
+      revision: e5c9b6915b56801193e359dd9bad4a167ce0d1b8
       import: app/west.yml
+    # DYA's Zephyr base, pinned together with the firmware and feature modules.
+    - name: zephyr
+      remote: cormoran
+      revision: 7c6b4cc486ecb41a68d9c2b1def2bb3178fbb826
+      import:
+        name-blocklist:
+          - ci-tools
+          - hal_altera
+          - hal_cypress
+          - hal_infineon
+          - hal_microchip
+          - hal_nxp
+          - hal_openisa
+          - hal_xtensa
+          - hal_st
+          - hal_ti
+          - loramac-node
+          - mcuboot
+          - mcumgr
+          - net-tools
+          - openthread
+          - edtt
+          - trusted-firmware-m
     - name: zmk-module-ble-management
       remote: cormoran
-      revision: zmk-v0.3.0.0
+      revision: 57738cc4fc6ba80e82a7ac57741a0339cb186cd4
     - name: zmk-module-battery-history
       remote: cormoran
       revision: 307755dd2ad4d320e14de162e8e5ef018f29d929
     - name: zmk-module-settings-rpc
       remote: cormoran
-      revision: zmk-v0.3.0.0
+      revision: 78f86df9e6c5edaf57bef3ccbd7f360cfdf49291
     - name: zmk-module-runtime-input-processor
       remote: cormoran
-      revision: zmk-v0.3.0.0
+      revision: 43618985f8c9d5457cc333b7ca0733f2d361911e
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
-      revision: zmk-v0.3.0.0
+      revision: 8b1125ed676c1f5e14145d217984f33d0ebdcef4
+    - name: zmk-feature-custom-settings
+      remote: cormoran
+      revision: c6a7fef3a3be3d3ace5de9a4b0628c6418cd1f3f
+    - name: zmk-feature-runtime-macro
+      remote: cormoran
+      revision: 38530962eb7061b60efcb98e84585cfb1f0cb6de
+    - name: zmk-feature-runtime-combo
+      remote: cormoran
+      revision: d9490e7b5d41c516221d131241009e81740efcee
+    - name: zmk-feature-default-layer
+      remote: cormoran
+      revision: b25cb5b324da2d9bbc84e1877c775f5b2b7c6845
+    - name: zmk-feature-os-detection
+      remote: cormoran
+      revision: 3052679f645b8fc1997275c2eaa6b86bdd55ca01
     - name: zmk-pmw3610-driver
       remote: badjeff
-      revision: zmk-0.3
-    - name: zmk-dongle-display
-      remote: te9no
-      revision: main
-    - name: zmk-oled-adapter
-      remote: mctechnology17
-      revision: main
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
+      revision: e970029b42f33613ca8f05baf311dc733cd5a390
     - name: zmk-tom-oled
       remote: pukuhei
-      revision: main
+      revision: b1db06b55bea5bf340760d3a5a7c0b709aa3caa6
   self:
     path: config

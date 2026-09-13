@@ -17,11 +17,11 @@ if LITOM_AUTO_MOUSE_LAYER
 
 config LITOM_AUTO_MOUSE_LAYER_TARGET
     int "Auto mouse layer index"
-    default 1
+    default 2
 
 config LITOM_AUTO_MOUSE_LAYER_SCROLL
     int "Scroll layer index that pauses auto mouse layer deactivation"
-    default 2
+    default 3
 
 config LITOM_AUTO_MOUSE_LAYER_TIMEOUT_MS
     int "Auto mouse layer timeout in milliseconds"

@@ -20,7 +20,7 @@ static void deactivate_work_handler(struct k_work *work) {
     }
 
     if (layer_owned && zmk_keymap_layer_active(TARGET_LAYER)) {
-        int err = zmk_keymap_layer_deactivate(TARGET_LAYER);
+        int err = zmk_keymap_layer_deactivate(TARGET_LAYER, false);
         if (err < 0) {
             LOG_WRN("Failed to deactivate auto mouse layer %d: %d", TARGET_LAYER, err);
             return;
@@ -48,7 +48,7 @@ static void auto_mouse_layer_input_listener(struct input_event *ev) {
     }
 
     if (!zmk_keymap_layer_active(TARGET_LAYER)) {
-        int err = zmk_keymap_layer_activate(TARGET_LAYER);
+        int err = zmk_keymap_layer_activate(TARGET_LAYER, false);
         if (err < 0) {
             LOG_WRN("Failed to activate auto mouse layer %d: %d", TARGET_LAYER, err);
             return;

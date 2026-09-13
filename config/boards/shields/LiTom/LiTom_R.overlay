@@ -55,7 +55,7 @@
 
     trackball: pd@0 {
         status = "okay";
-        compatible = "pixart,pmw3610";
+        compatible = "pixart,pmw3610-alt";
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio1 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
@@ -71,7 +71,7 @@
     input-processors = <&mouse_runtime_input_processor>;
 
     scroll {
-        layers = <2>;
+        layers = <3>;
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 16>, <&zip_xy_to_scroll_mapper>, <&scroll_runtime_input_processor>;
     };
 };
