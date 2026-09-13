@@ -33,11 +33,19 @@ jobs:
       - name: Draw keymap SVG
         run: |
           mkdir -p keymap-svg
+          # The renderer understands static combo syntax. Adapt only its input;
+          # the firmware continues to use editable runtime combo defaults.
+          python3 - <<'PY'
+          from pathlib import Path
+          source = Path("config/LiTom.keymap").read_text()
+          source = source.replace('"cormoran,runtime-combo-defaults"', '"zmk,combos"')
+          Path(".keymap-svg-tools/LiTom.keymap").write_text(source)
+          PY
           python3 .keymap-svg-tools/scripts/generate_physical_layout_svg.py \
             config/boards/shields/LiTom/LiTom.dtsi \
             keymap-svg/LiTom.svg \
             --layout default_layout \
-            --keymap config/LiTom.keymap \
+            --keymap .keymap-svg-tools/LiTom.keymap \
             --key-unit-px 84
 
       - name: Commit updated SVG
