@@ -2,5 +2,16 @@ name: Build ZMK firmware
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
+  compatibility-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: cormoran/zmk-module-runtime-input-processor
+          ref: 43618985f8c9d5457cc333b7ca0733f2d361911e
+          path: .runtime-input-processor
+      - name: Test binding recovery and temporary layer transitions
+        run: python3 scripts/test_compat.py .runtime-input-processor/src/pointing/input_processor_runtime.c
   build:
     uses: cormoran/zmk/.github/workflows/build-user-config.yml@e5c9b6915b56801193e359dd9bad4a167ce0d1b8
