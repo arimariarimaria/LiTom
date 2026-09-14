@@ -13,5 +13,12 @@ jobs:
           path: .runtime-input-processor
       - name: Test binding recovery and temporary layer transitions
         run: python3 scripts/test_compat.py .runtime-input-processor/src/pointing/input_processor_runtime.c
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: pukuhei/zmk-tom-oled
+          ref: b1db06b55bea5bf340760d3a5a7c0b709aa3caa6
+          path: .tom-oled
+      - name: Test peripheral OLED pixels and event handling
+        run: python3 scripts/test_peripheral_oled.py .tom-oled/boards/shields/tom_oled/widgets
   build:
     uses: cormoran/zmk/.github/workflows/build-user-config.yml@e5c9b6915b56801193e359dd9bad4a167ce0d1b8
