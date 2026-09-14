@@ -18,10 +18,10 @@
 #
 ---
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: LiTom_R tom_oled
     snippet: studio-rpc-usb-uart
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: LiTom_L tom_oled tom_oled_180
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset

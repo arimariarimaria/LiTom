@@ -1,0 +1,7 @@
+# Isolate display-related work on the LEFT peripheral.
+# The normal right firmware must be restored before comparing this build.
+include:
+  - board: xiao_ble//zmk
+    shield: LiTom_L tom_oled tom_oled_180
+    cmake-args: -DCONFIG_ZMK_DISPLAY=n -DCONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=n
+    artifact-name: LiTom_L_DIAGNOSTIC_display_off
