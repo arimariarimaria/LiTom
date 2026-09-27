@@ -12,5 +12,4 @@ include:
       -DCONFIG_THREAD_ANALYZER_RUN_UNLOCKED=y
       -DCONFIG_THREAD_NAME=y
       -DCONFIG_ASSERT=y
-      -DCONFIG_RESET_ON_FATAL_ERROR=n
     artifact-name: LiTom_R_DIAGNOSTIC_freeze_logs
