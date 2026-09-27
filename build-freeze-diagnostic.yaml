@@ -1,0 +1,16 @@
+# Keep the user's normal firmware behavior; add a separate USB log interface.
+include:
+  - board: xiao_ble//zmk
+    shield: LiTom_R tom_oled
+    snippet: studio-rpc-usb-uart;zmk-usb-logging
+    cmake-args: >-
+      -DCONFIG_LITOM_FREEZE_DIAGNOSTICS=y
+      -DCONFIG_ZMK_LOGGING_MINIMAL=y
+      -DCONFIG_ZMK_LOG_LEVEL=2
+      -DCONFIG_THREAD_ANALYZER=y
+      -DCONFIG_THREAD_ANALYZER_USE_PRINTK=y
+      -DCONFIG_THREAD_ANALYZER_RUN_UNLOCKED=y
+      -DCONFIG_THREAD_NAME=y
+      -DCONFIG_ASSERT=y
+      -DCONFIG_RESET_ON_FATAL_ERROR=n
+    artifact-name: LiTom_R_DIAGNOSTIC_freeze_logs
