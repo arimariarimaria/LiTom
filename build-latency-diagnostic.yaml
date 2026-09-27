@@ -1,0 +1,8 @@
+# A/B diagnostic: disable split peripheral connection-event skipping only.
+# Flash to the RIGHT half. Keep the existing left firmware and saved settings.
+include:
+  - board: xiao_ble//zmk
+    shield: LiTom_R tom_oled
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_SPLIT_BLE_PREF_LATENCY=0
+    artifact-name: LiTom_R_DIAGNOSTIC_split_latency_0

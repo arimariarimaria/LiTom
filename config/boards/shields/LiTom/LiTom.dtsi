@@ -133,3 +133,8 @@
 &adc {
   status = "okay";
 };
+
+// NFC pads are used as encoder/SPI GPIOs on LiTom.
+&uicr {
+    nfct-pins-as-gpios;
+};
