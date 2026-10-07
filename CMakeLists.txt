@@ -1,7 +1,5 @@
 zephyr_library()
 
-zephyr_library_sources_ifdef(CONFIG_LITOM_FREEZE_DIAGNOSTICS src/freeze_diagnostics.c)
-
 zephyr_library_sources_ifdef(CONFIG_LITOM_PREFER_USB_ENDPOINT_ON_READY src/prefer_usb_endpoint.c)
 zephyr_library_sources_ifdef(CONFIG_LITOM_RECOVER_UNRESOLVED_BINDINGS src/keymap_compat.c)
 

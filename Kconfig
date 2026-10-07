@@ -1,11 +1,3 @@
-config LITOM_FREEZE_DIAGNOSTICS
-    bool "Log central work queue progress and thread stack usage"
-    depends on ZMK_SPLIT_ROLE_CENTRAL && ZMK_USB_LOGGING && THREAD_ANALYZER
-    help
-      Diagnostic firmware only. Prints queue progress every 10 seconds and
-      thread stack usage every 30 seconds. Does not log key positions or reset
-      the device automatically. Disabled in normal builds.
-
 config LITOM_RECOVER_UNRESOLVED_BINDINGS
     bool "Recover unresolved saved key bindings in RAM"
     depends on ZMK_KEYMAP_SETTINGS_STORAGE && ZMK_BEHAVIOR_LOCAL_ID_TYPE_CRC16
