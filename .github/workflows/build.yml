@@ -27,5 +27,13 @@ jobs:
           path: .runtime-combo
       - name: Test combo RPC save notifications and error handling
         run: python3 scripts/test_runtime_combo_rpc.py .runtime-combo/src/studio/runtime_combo_handler.c
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: cormoran/zmk
+          ref: e5c9b6915b56801193e359dd9bad4a167ce0d1b8
+          path: .studio-zmk
+          sparse-checkout: app/src/studio
+      - name: Test Studio USB FIFO backpressure and retry
+        run: python3 scripts/test_studio_uart.py .studio-zmk/app/src/studio/uart_rpc_transport.c
   build:
     uses: cormoran/zmk/.github/workflows/build-user-config.yml@e5c9b6915b56801193e359dd9bad4a167ce0d1b8
