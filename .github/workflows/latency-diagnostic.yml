@@ -1,0 +1,14 @@
+name: Build split latency diagnostic
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - build-latency-diagnostic.yaml
+      - .github/workflows/latency-diagnostic.yml
+
+jobs:
+  build:
+    uses: cormoran/zmk/.github/workflows/build-user-config.yml@e5c9b6915b56801193e359dd9bad4a167ce0d1b8
+    with:
+      build_matrix_path: build-latency-diagnostic.yaml
+      archive_name: split-latency-diagnostic
