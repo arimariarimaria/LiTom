@@ -20,5 +20,12 @@ jobs:
           path: .tom-oled
       - name: Test peripheral OLED pixels and event handling
         run: python3 scripts/test_peripheral_oled.py .tom-oled/boards/shields/tom_oled/widgets
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: cormoran/zmk-feature-runtime-combo
+          ref: d9490e7b5d41c516221d131241009e81740efcee
+          path: .runtime-combo
+      - name: Test combo RPC save notifications and error handling
+        run: python3 scripts/test_runtime_combo_rpc.py .runtime-combo/src/studio/runtime_combo_handler.c
   build:
     uses: cormoran/zmk/.github/workflows/build-user-config.yml@e5c9b6915b56801193e359dd9bad4a167ce0d1b8
